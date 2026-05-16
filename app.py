@@ -43,7 +43,7 @@ import gzip
 with gzip.open('data.pkl.gz', 'rb') as f:
     similarity = pickle.load(f)
 
-st.title('Movie Recommender System')
+st.title('Film Friend')
 
 selected_movie_name = st.selectbox(
     "Choose a movie",
