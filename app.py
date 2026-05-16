@@ -69,5 +69,5 @@ if st.button('Recommend'):
         st.text(names[4])
         st.image(posters[4])
 
-    st.markdown("---")
-    st.caption("Built by Parth Chavare")
+st.markdown("---")
+st.caption("Built by Parth Chavare")
