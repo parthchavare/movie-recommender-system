@@ -69,5 +69,20 @@ if st.button('Recommend'):
         st.text(names[4])
         st.image(posters[4])
 
-st.markdown("---")
-st.caption("Built by Parth Chavare")
+st.markdown("""
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        padding: 10px;
+        color: gray;
+        font-size: 14px;
+        border-top: 1px solid #ddd;
+    }
+    </style>
+    <div class="footer">© 2026 Parth Chavare</div>
+""", unsafe_allow_html=True)
