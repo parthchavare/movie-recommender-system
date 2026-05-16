@@ -77,12 +77,12 @@ st.markdown("""
         bottom: 0;
         width: 100%;
         text-align: center;
-        background-color: white;
+        background-color: default;
         padding: 10px;
-        color: gray;
+        color: white;
         font-size: 14px;
         border-top: 1px solid #ddd;
     }
     </style>
-    <div class="footer">© 2026 Parth Chavare</div>
+    <div class="footer">Built by Parth Chavare</div>
 """, unsafe_allow_html=True)
