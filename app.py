@@ -72,15 +72,15 @@ if st.button('Recommend'):
 st.markdown("""
     <style>
     .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
         text-align: center;
         padding: 20px;
         color: gray;
         font-size: 14px;
-        margin-top: 50px;
     }
     </style>
-
-    <div class="footer">
-        Built by Parth Chavare
-    </div>
+    <div class="footer">© 2026 Parth Chavare</div>
 """, unsafe_allow_html=True)
