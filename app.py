@@ -82,5 +82,7 @@ st.markdown("""
         font-size: 14px;
     }
     </style>
-    <div class="footer">© 2026 Parth Chavare</div>
+    <div class="footer">Built by <a href="https://github.com/parthchavare" target="_blank">
+            Parth Chavare
+        </a></div>
 """, unsafe_allow_html=True)
